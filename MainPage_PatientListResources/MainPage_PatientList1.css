@@ -1,0 +1,55 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+body{
+    background-image: url("Pictures/MainPage_BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#Content1, #Content2, #Content3{
+    text-wrap: wrap;
+}
+
+h3{
+    text-align: center;
+}
+
+table, th, td, tr{
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(200,200,200,0.3);
+}
+
+.FormWrapper{
+    padding: 20px;
+    background-color: rgba(200,200,200,0.4);
+}
+
+.buttonWrapper{
+    padding: 10px;
+    text-align: center;
+}
+
+#PatEntDiv, #PatDetDiv, #PatEdDiv{
+    display: none;
+}
+
+.warning{
+    color: red;
+    text-align: center;
+}
+
+.navbarNav1{
+    padding-right:20px;
+    float:right;
+
+}

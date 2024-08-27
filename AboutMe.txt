@@ -1,0 +1,3 @@
+Project is an application about doctors managing their patients' information.
+Using vanilla php and javascript, with just a bit of bootstrap for making it look a little prettier.
+//****************--------------

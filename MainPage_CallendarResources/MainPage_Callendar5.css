@@ -1,0 +1,74 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+body{
+    background-image: url("Pictures/MainPage_BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    text-align: center;
+}
+
+table, th, td, tr{
+    border: none;
+    text-align:center;
+    margin:0;
+    background-color: rgba(200,200,200,0.3);
+}
+
+.navbarNav1{
+    padding-right:20px;
+    float:right;
+}
+
+table{
+    width:100%;
+}
+
+.ButtonFill{
+    width:100%;
+    height:100%;
+}
+
+.ActiveDateButton{
+    background-color:rgb(98, 243, 85);
+}
+
+.InactiveDateButton{
+    background-color: lightgray;
+}
+
+.KeyButton{
+    background-color: lightskyblue;
+}
+
+.clndrWidth{
+    width:14.3%;
+}
+
+.AppRowDate{
+    width:10%;
+}
+
+.AppRowOper{
+    width:10%;
+}
+
+.AppRowDetails{
+    width:55%;
+}
+
+.AppRowFullName{
+    width:15%;
+}
+
+.AppRowAMKA{
+    width:10%;
+}
