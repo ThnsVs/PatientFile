@@ -16,7 +16,7 @@ CREATE TABLE `patientdata` (
   `PatientID` int(11) NOT NULL AUTO_INCREMENT,
   `DocName` varchar(30) NOT NULL,
   PRIMARY KEY (`PatientID`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
 -- TABLE: LOGIN CREDENTIALS
@@ -27,7 +27,7 @@ CREATE TABLE `logincredentials` (
   `docName` varchar(50) NOT NULL,
   `userID` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`userID`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
 -- TABLE: EXAMINATIONS
@@ -37,7 +37,7 @@ CREATE TABLE `examinations` (
   `examinationDetails` varchar(500) NOT NULL,
   `examinationDoc` varchar(30) NOT NULL,
   `date` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
 -- TABLE: OPERATIONS - - -
@@ -47,7 +47,7 @@ CREATE TABLE `operations` (
   `operationDetails` varchar(500) NOT NULL,
   `operationDoc` varchar(30) NOT NULL,
   `date` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
 -- TABLE: PRESCRIPTIONS - - -
@@ -57,7 +57,7 @@ CREATE TABLE `prescriptions` (
   `prescriptionDetails` varchar(500) NOT NULL,
   `prescriptionDoc` varchar(30) NOT NULL,
   `date` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
 
