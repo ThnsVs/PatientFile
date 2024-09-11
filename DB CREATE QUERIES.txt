@@ -40,7 +40,7 @@ CREATE TABLE `examinations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
--- TABLE: OPERATIONS - - -
+-- TABLE: OPERATIONS
 
 CREATE TABLE `operations` (
   `patientID` int(11) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE `operations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
--- TABLE: PRESCRIPTIONS - - -
+-- TABLE: PRESCRIPTIONS
 
 CREATE TABLE `prescriptions` (
   `patientID` int(11) NOT NULL,
